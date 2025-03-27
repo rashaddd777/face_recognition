@@ -21,26 +21,19 @@ This repository provides a simple pipeline for training and testing a face recog
 ---
 ## 🚀 Quickstart
 
-### 1️⃣ Install dependencies
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-### 2️⃣ Train your model (train2.py)
+### 1. Train your model (train2.py)
 By default, this script reads `data/public/train`, extracts face embeddings, and trains a linear SVM. It outputs `face_recognizer.pkl`.
 ```bash
 python train2.py
 ```
 
-### 3️⃣ Test on a directory (test1.py)
+### 2. Test on a directory (test1.py)
 Evaluate the saved model on **all** images under `data/public/test`. It prints predictions with confidence scores.
 ```bash
 python test1.py --path data/public/test
 ```
 
-### 4️⃣ Test on a single image (test2.py)
+### 3. Test on a single image (test2.py)
 Run inference on one picture.
 ```bash
 python test2.py --path data/public/test/sample.jpg
