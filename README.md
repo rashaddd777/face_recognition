@@ -48,7 +48,7 @@ Full classification report is saved in `Classification_Report.txt` and confusion
 
 ---
 ## 🗂️ Data Format
-Each subfolder under `data/public/train` and `data/public/test` represents a unique person (e.g. `n000006`, `n000007`, etc.). All folders contain only JPEG/PNG images of human faces.
+Each subfolder under `data/public/train` represents a unique person (e.g. `n000006`, `n000007`, etc.). All folders contain only JPEG/PNG images of human faces.
 
 
 Feel free to fork and customize with your own face dataset — just mirror the folder structure and update `--path` arguments when running the scripts.
