@@ -20,4 +20,4 @@ for person in keep_people:
             if img not in to_keep:
                 os.remove(os.path.join(folder, img))
 
-print("✅ Pruning complete: 100 people × 100 images each.")
+print("Pruning complete: 100 people × 100 images each.")
