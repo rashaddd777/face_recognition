@@ -42,7 +42,7 @@ python test2.py --path data/public/test/sample.jpg
 ---
 ## 📊 Model Accuracy
 - **Test set size:** 9,058 images across 100 identities
-- **Overall accuracy:** 98.44% (as of 2025‑03‑27)
+- **Overall accuracy:** 98.44% 
 
 Full classification report is saved in `Classification_Report.txt` and confusion matrix in `confusion_matrix.png`.
 
